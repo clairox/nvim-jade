@@ -11,6 +11,7 @@ M.colors = {
 }
 
 function M.setup()
+    print("Setting up...")
     local c = M.colors
 
     -- General UI
