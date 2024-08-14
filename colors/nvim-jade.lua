@@ -59,5 +59,7 @@ function M.setup()
     vim.api.nvim_set_hl(0, "CursorLineNr", { fg = c.fg, bg = c.accent })
 end
 
+M.setup()
+
 return M
 
